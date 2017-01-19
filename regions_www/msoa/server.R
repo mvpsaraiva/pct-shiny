@@ -22,8 +22,8 @@
 # Colours
 zcols <- "RdYlBu" # for colourbrewer scale (see get_colour_ramp in pct-shiny-funs.R)
 shiny_root <- file.path("..", "..")
-# expect pct-data as a sibling of pct-shiny
-data_dir_root <- file.path(shiny_root, '..', 'pct-data')
+# expect pct-data-microsim as a sibling of pct-shiny
+data_dir_root <- file.path(shiny_root, '..', 'pct-data-microsim')
 # packages required
 cran_pkgs <- c("shiny", "rgdal", "rgeos", "leaflet", "DT", "shinyjs", "dplyr", "readr")
 

@@ -67,7 +67,7 @@ get_line_colour <- function(line_type){
 zone_fill_breaks = c(0, 1.5, 3.5, 6.5, 9.5, 14.5, 19.5, 24.5, 29.5, 39.5, 100) / 100  # The bins used for the scale
 
 make_download_link <- function(file, download_name, region, formats = c('Rds', 'geojson', 'csv')){
-  base_url = paste("https://cdn.rawgit.com/npct/pct-data", data_sha, region, sep = "/")
+  base_url = paste("https://cdn.rawgit.com/npct/pct-data-microsim", data_sha, region, sep = "/")
   all_links <- ""
   for(i in 1:length(formats)){
     format <- formats[i]

@@ -58,7 +58,7 @@ Pull the npt stuff from git
 ```
  apt-get install git
  git clone https://github.com/npct/pct-shiny
- git clone https://github.com/npct/pct-data
+ git clone https://github.com/npct/pct-data-microsim
 ```
 
 Install shiny server
@@ -104,7 +104,7 @@ Now configure it to serve npt
 
 ```
  mkdir /var/shiny
- cp -a /root/pct-shiny /root/pct-data /var/shiny
+ cp -a /root/pct-shiny /root/pct-data-microsim /var/shiny
  chown -R shiny:shiny /var/shiny
 ```
 

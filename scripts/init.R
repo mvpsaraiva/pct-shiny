@@ -2,7 +2,7 @@ init_dev_env <- function(dataDirRoot, data_sha, cranPkgs, shiny_root) {
   # Clone the data repo if it do not exist
   if(!dir.exists(dataDirRoot)) {
     system2('git', args=c('clone', '--depth=1',
-                          'https://github.com/npct/pct-data.git', dataDirRoot))
+                          'https://github.com/npct/pct-data-microsim.git', dataDirRoot))
   } else { # Update the data repo
     print("Fetching data")
     system2('git', c("--git-dir", file.path(dataDirRoot, ".git"), "--work-tree",
