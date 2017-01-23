@@ -1,6 +1,6 @@
 sc_name_df <- data.frame(
-  sc_f_name = c("Census 2011 Cycling", "Government Target", "Gender equality", "Go Dutch", "Ebikes"),
-  sc_s_name = c("olc", "govtarget","gendereq","dutch", "ebike")
+  sc_f_name = c("Census 2011 Cycling", "Government Target", "Near Market", "Gender equality", "Go Dutch", "Ebikes"),
+  sc_s_name = c("olc", "govtarget","nearmkt","gendereq","dutch", "ebike")
 )
 
 get_scenario_name <- function(sc_name, all_trips){
@@ -91,6 +91,9 @@ line_col_names <- c(
   "No. cyclists in Government Target"            = "govtarget_slc",
   "Change in deaths/year in Government Target"   = "govtarget_sideath_heat",
   "Change in CO2/year (kg) in Government Target" = "govtarget_sico2",
+  "No. cyclists in Near Market"                  = "nearmkt_slc",
+  "Change in deaths/year in Near Market"         = "nearmkt_sideath_heat",
+  "Change in CO2/year (kg) in Near Market"       = "nearmkt_sico2",
   "No. cyclists in Gender Equality"              = "gendereq_slc",
   "Change in deaths/year in Gender Equality"     = "gendereq_sideath_heat",
   "Change in CO2/year (kg) in Gender Equality"   = "gendereq_sico2",
@@ -235,7 +238,7 @@ straight_line_popup <- function(data, scenario, all_trips){
     <tr>
       <td> Change in deaths/yr: &nbsp; </td>
       <td style= 'color:", data$font_colour , "' >", round(data[[data_filter(scenario, "sideath_heat")]], 3), " (&pound;" ,
-            round(data[[data_filter(scenario, "sivalue_heat")]]), ")
+           round(data[[data_filter(scenario, "sivalue_heat")]]), ")
       </td>
     </tr>
     <tr>
@@ -533,7 +536,7 @@ zone_popup <- function(data, scenario, zone, all_trips){
     <tr>
       <td> Change in deaths/yr: &nbsp; </td>
       <td style= 'color:", data$font_colour , "' >", round(data[[data_filter(scenario, "sideath_heat")]], 3), " (&pound;" ,
-          round(data[[data_filter(scenario, "sivalue_heat")]]), ")
+           round(data[[data_filter(scenario, "sivalue_heat")]]), ")
       </td>
     </tr>
     <tr>
