@@ -68,7 +68,7 @@ shinyServer(function(input, output, session){
       } else if (exists("starting_region")) {
         starting_region
       } else {
-        "west-yorkshire"
+        "greater-manchester"
       }
       region$data_dir <- file.path(data_dir_root, region$current)
       region$all_trips <- dir.exists(file.path(data_dir_root, region$current , 'all-trips'))
