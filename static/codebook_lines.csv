@@ -21,6 +21,11 @@ govtarget_sic,Increase no. cyclists in Government Target vs. Census 2011
 govtarget_slw,No. pedestrians in Government Target
 govtarget_sld,No. car drivers in Government Target
 govtarget_sid,Increase no. car drivers in Government Target vs. Census 2011
+nearmkt_slc,No. cyclists in Near Market
+nearmkt_sic,Increase no. cyclists in Near Market vs. Census 2011
+nearmkt_slw,No. pedestrians in Near Market
+nearmkt_sld,No. car drivers in Near Market
+nearmkt_sid,Increase no. car drivers in Near Market vs. Census 2011
 gendereq_slc,No. cyclists in Gender Equality
 gendereq_sic,Increase no. cyclists in Gender Equality vs. Census 2011
 gendereq_slw,No. pedestrians in Gender Equality
@@ -37,23 +42,29 @@ ebike_slw,No. pedestrians in Ebikes
 ebike_sld,No. car drivers in Ebikes
 ebike_sid,Increase no. car drivers in Ebikes vs. Census 2011
 govtarget_sldeath_heat,Change in deaths/year in Government Target versus 'no cycling'
-govtarget_slvalue_heat,Value (pounds) of change in deaths in Government Target versus 'no cycling' 
+govtarget_slvalue_heat,Value (pounds) of change in deaths in Government Target versus 'no cycling'
 govtarget_sideath_heat,Change in deaths/year in Government Target versus Census 2011
 govtarget_sivalue_heat,Value (pounds) of change in deaths in Government Target versus Census 2011
+nearmkt_sldeath_heat,Change in deaths/year in Near Market versus 'no cycling'
+nearmkt_slvalue_heat,Value (pounds) of change in deaths in Near Market versus 'no cycling'
+nearmkt_sideath_heat,Change in deaths/year in Near Market versus Census 2011
+nearmkt_sivalue_heat,Value (pounds) of change in deaths in Near Market versus Census 2011
 gendereq_sldeath_heat,Change in deaths/year in Gender Equality versus 'no cycling'
-gendereq_slvalue_heat,Value (pounds) of change in deaths in Gender Equality versus 'no cycling' 
+gendereq_slvalue_heat,Value (pounds) of change in deaths in Gender Equality versus 'no cycling'
 gendereq_sideath_heat,Change in deaths/year in Gender Equality versus Census 2011
 gendereq_sivalue_heat,Value (pounds) of change in deaths in Gender Equality versus Census 2011
 dutch_sldeath_heat,Change in deaths/year in Go Dutch versus 'no cycling'
-dutch_slvalue_heat,Value (pounds) of change in deaths in Go Dutch versus 'no cycling' 
+dutch_slvalue_heat,Value (pounds) of change in deaths in Go Dutch versus 'no cycling'
 dutch_sideath_heat,Change in deaths/year in Go Dutch versus Census 2011
 dutch_sivalue_heat,Value (pounds) of change in deaths in Go Dutch versus Census 2011
 ebike_sldeath_heat,Change in deaths/year in Ebikes versus 'no cycling'
-ebike_slvalue_heat,Value (pounds) of change in deaths in Ebikes versus 'no cycling' 
+ebike_slvalue_heat,Value (pounds) of change in deaths in Ebikes versus 'no cycling'
 ebike_sideath_heat,Change in deaths/year in Ebikes versus Census 2011
 ebike_sivalue_heat,Value (pounds) of change in deaths in Ebikes versus Census 2011
 govtarget_slco2,Change in CO2/year (kg) in Government Target versus 'no cycling'
 govtarget_sico2,Change in CO2/year (kg) in Government Target versus Census 2011
+nearmkt_slco2,Change in CO2/year (kg) in Near Market versus 'no cycling'
+nearmkt_sico2,Change in CO2/year (kg) in Near Market versus Census 2011
 gendereq_slco2,Change in CO2/year (kg) in Gender Equality versus 'no cycling'
 gendereq_sico2,Change in CO2/year (kg) in Gender Equality versus Census 2011
 dutch_slco2,Change in CO2/year (kg) in Go Dutch versus 'no cycling'
