@@ -201,6 +201,9 @@ shinyUI(
 
              DT::dataTableOutput("zones_data_table")
     ),
+    tabPanel("Model Output",
+             htmlOutput("m_output")
+    ),
     tabPanel("About",
              includeHTML(file.path("..", "about_body.html"))
     ),
