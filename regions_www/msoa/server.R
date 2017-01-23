@@ -164,6 +164,7 @@ shinyServer(function(input, output, session){
       # In case the user switches back to 'commute' revert the names of the scenarios
       local_scenarios <- c("Census 2011 Cycling" = "olc",
                            "Government Target" = "govtarget",
+                           "Near Market" = "nearmkt",
                            "Gender equality" = "gendereq",
                            "Go Dutch" = "dutch",
                            "Ebikes" = "ebike")
