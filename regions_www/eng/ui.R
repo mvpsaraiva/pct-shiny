@@ -45,6 +45,7 @@ map_base_attrs <- c("Roadmap (Black & White)"   = "roadmap",
                     "Hilliness" = "hilliness")
 
 on_server <- grepl('^/var/shiny/pct-shiny', getwd())
+production_branch <- grepl("npt\\d*$", Sys.info()["nodename"])
 
 shinyUI(
   navbarPage(
@@ -61,6 +62,9 @@ shinyUI(
           includeCSS("../www/stylesheet.css"),
           includeHTML(file.path("..", "favicon.html"))
         ),
+        if(!production_branch){
+          includeHTML(file.path("..", "test-banner.html"))
+        },
         br(),
         leafletOutput("map", width="100%", height="95%"),
         absolutePanel(
